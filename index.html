@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>taek</title>
+    <link rel="icon" href="yt.png">
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        height: fit-content;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .caption {
+        width: 100%;
+        height: 50px;
+        background: white;
+    }
+
+    .caption h4 {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    .caption p {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .profile {
+        width: 100%;
+        height: 50px;
+        background: white;
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-start;
+        align-items: center;
+    }
+
+    .profile img {
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .profile button {
+        margin-left: 60%;
+        height: 60%;
+        color: white;
+        background: black;
+        border-radius: 30px;
+        font-size: 10px;
+        width: 40%;
+    }
+
+    .like {
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .like button {
+        width: 100%;
+        margin: 2px;
+        border-radius: 40%;
+        background-color: rgb(228, 228, 228);
+    }
+
+    .komentar {
+        width: 100%;
+        height: 110px;
+        background-color: rgb(212, 212, 212);
+        display: flex;
+        flex-direction: column;
+        border-radius: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .komentar .text {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 30px;
+        justify-content: flex-start;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .text h5 {
+        margin-right: 3px;
+        margin-left: 3px;
+        margin: 0;
+    }
+
+    .komentar .komen {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+
+    .komen img {
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        margin-left: 3px;
+        margin-right: 10px;
+        border-radius: 50%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .komen>p {
+        font-size: 13px;
+    }
+</style>
+
+<body>
+    <section class="video">
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/gn7N09RbOkQ?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+    </section>
+    <section class="caption">
+        <h4>Tutorial blokir apk/web/file(kayaknya) - Rakcoy</h4>
+        <p>3.058.497.482.528 x ditonton 1 hari yang lalu</p>
+    </section>
+    <section class="profile">
+        <img src="logo.png" alt="profilesyutub">
+        <h6>Rakcoy</h6>
+        <button onclick="subscribe()">Subscribe</button>
+    </section>
+    <section class="like">
+        <button onclick="subscribe()">like</button>
+        <button onclick="subscribe()">dislike</button>
+        <button onclick="subscribe()">sharre</button>
+        <button onclick="subscribe()">remix</button>
+        <button onclick="subscribe()">download</button>
+    </section>
+    <section class="komentar">
+        <div class="text">
+            <h5>Komentar</h5>
+            <p>1rb</p>
+        </div>
+        <div class="komen">
+            <img src="zoro.jpg" alt="profiles">
+            <p>Terima kasih bang, tutorialny sangad berguna, walaupun kameramenya agak tolol tapi gpp🙂</p>
+        </div>
+    </section>
+
+    <script>
+        function subscribe() {
+            alert('tolol aja dipencet, ini cuman boongan')
+        }
+    </script>
+</body>
+
+</html>
